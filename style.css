@@ -1,0 +1,75 @@
+.content{
+    max-width: 1400px;
+    max-height: 800px;
+    height: 100vh;
+    margin: 0 auto;
+    background-image: url('./images/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #000;
+    background-position: 28vw 0;
+}
+
+.content h1{
+    font-family: 'Exo 2';
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 66px;
+    color: #fff;
+    margin-top: 174px;
+}
+
+.content p{
+    font-family: 'Ubuntu';
+    font-size: 20px;
+    line-height: 23px;
+    color: #fff;
+    padding: 15px 0;
+}
+
+.content .container-head{
+    max-width: 1140px;
+}
+
+.content button{
+    border-radius: 12px;
+    font-family: 'PT Sans';
+    color: #fff;
+    font-size: 18px;
+    line-height: 23px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+
+.content button:first-child{
+    background-color: #3987B2;
+}
+
+.content button:nth-child(2){
+    background-color: #392DBE;
+}
+
+.content button:last-child{
+    background-color: #E54269;
+}
+
+@media screen and (min-width: 1400px){
+    .content{
+        background-position: 450px 0;
+        background-size: contain;
+    }
+}
+
+@media screen and (max-width:991.98px){
+    .content h1{
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 42px;
+        padding-bottom: 15px;
+    }
+
+    .content p{
+        font-size: 14px;
+        line-height: 16px;
+    }
+}
